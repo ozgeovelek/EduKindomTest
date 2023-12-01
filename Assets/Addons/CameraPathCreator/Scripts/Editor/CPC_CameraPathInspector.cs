@@ -186,9 +186,10 @@ public class CPC_CameraPathInspector : Editor
             rect.width = 40;
             fullWidth -= 40;
             rect.height /= 2;
+            // t.points[pointReorderableList.index].positionSpeed = float.Parse(GUI.TextField(rect,"5"));
             GUI.Label(rect, "#" + (index + 1));
             rect.y += rect.height-3;
-            rect.x -= 14;
+            rect.x -= 14;   
             rect.width += 12;
             if (GUI.Button(rect, t.points[index].chained ? chainedContent : unchainedContent))
             {
@@ -257,6 +258,7 @@ public class CPC_CameraPathInspector : Editor
                 SceneView.lastActiveSceneView.Repaint();
             }
             rect.y += rect.height + 2;
+
             if (GUI.Button(rect, relocateContent))
             {
                 Undo.RecordObject(t, "Relocated waypoint");
@@ -266,11 +268,10 @@ public class CPC_CameraPathInspector : Editor
                 t.points[pointReorderableList.index].rotation = SceneView.lastActiveSceneView.camera.transform.rotation;
                 SceneView.lastActiveSceneView.Repaint();
             }
-            rect.height = (rect.height + 1) * 2;
+             rect.height = (rect.height + 1) * 2;
             rect.y = startRectY;
             rect.x += rect.width + 2;
             rect.width = 20;
-
             if (GUI.Button(rect, deletePointContent))
             {
                 Undo.RecordObject(t, "Deleted a waypoint");

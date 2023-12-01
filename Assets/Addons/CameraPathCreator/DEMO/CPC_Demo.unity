@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44402242, g: 0.49316543, b: 0.5722324, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -139,7 +139,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &47332221
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -188,7 +188,7 @@ MonoBehaviour:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    curveTypePosition: 1
+    curveTypePosition: 2
     positionCurve:
       serializedVersion: 2
       m_Curve:
@@ -196,24 +196,26 @@ MonoBehaviour:
         time: 0
         value: 0
         inSlope: 0
-        outSlope: 1
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 1
         outSlope: 0
         tangentMode: 0
         weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
     chained: 1
+    positionSpeed: 1
+    rotationSpeed: 0
   - position: {x: 13.289127, y: 3.1280422, z: -10.750435}
     rotation: {x: 0.036598578, y: -0.52158326, z: 0.022403074, w: 0.8521207}
     handleprev: {x: 6.4742994, y: -0, z: 4.033576}
@@ -243,7 +245,7 @@ MonoBehaviour:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    curveTypePosition: 1
+    curveTypePosition: 2
     positionCurve:
       serializedVersion: 2
       m_Curve:
@@ -251,24 +253,26 @@ MonoBehaviour:
         time: 0
         value: 0
         inSlope: 0
-        outSlope: 1
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 1
         outSlope: 0
         tangentMode: 0
         weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
     chained: 1
+    positionSpeed: 1
+    rotationSpeed: 0
   - position: {x: -32.49396, y: 2.390653, z: -4.567561}
     rotation: {x: 0.010780818, y: 0.3308536, z: -0.0037790318, w: 0.943613}
     handleprev: {x: 0.44895935, y: -1.1033096, z: -5.799323}
@@ -298,7 +302,7 @@ MonoBehaviour:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    curveTypePosition: 1
+    curveTypePosition: 2
     positionCurve:
       serializedVersion: 2
       m_Curve:
@@ -306,24 +310,26 @@ MonoBehaviour:
         time: 0
         value: 0
         inSlope: 0
-        outSlope: 1
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 1
         outSlope: 0
         tangentMode: 0
         weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
     chained: 1
+    positionSpeed: 1
+    rotationSpeed: 0
   - position: {x: -21.752693, y: -6.0475655, z: 34.831364}
     rotation: {x: 0.07524117, y: 0.8633961, z: -0.13528338, w: 0.48019207}
     handleprev: {x: -5.559801, y: 0, z: 0.029015541}
@@ -353,7 +359,7 @@ MonoBehaviour:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    curveTypePosition: 1
+    curveTypePosition: 2
     positionCurve:
       serializedVersion: 2
       m_Curve:
@@ -361,24 +367,26 @@ MonoBehaviour:
         time: 0
         value: 0
         inSlope: 0
-        outSlope: 1
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 1
         outSlope: 0
         tangentMode: 0
         weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
     chained: 1
+    positionSpeed: 0
+    rotationSpeed: 0
   - position: {x: 27.058617, y: 3.1856318, z: 7.095721}
     rotation: {x: 0.001031449, y: 0.881462, z: -0.08631079, w: -0.4642998}
     handleprev: {x: -2.2633038, y: -3.437735, z: -0.31942558}
@@ -408,7 +416,7 @@ MonoBehaviour:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    curveTypePosition: 1
+    curveTypePosition: 2
     positionCurve:
       serializedVersion: 2
       m_Curve:
@@ -416,24 +424,26 @@ MonoBehaviour:
         time: 0
         value: 0
         inSlope: 0
-        outSlope: 1
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 1
         outSlope: 0
         tangentMode: 0
         weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
     chained: 1
+    positionSpeed: 0
+    rotationSpeed: 0
   - position: {x: 19.569214, y: 2.2610433, z: -17.727482}
     rotation: {x: -0.017019652, y: 0.43701252, z: -0.008272078, w: -0.8992564}
     handleprev: {x: 7.2626514, y: -0, z: 6.170559}
@@ -463,7 +473,7 @@ MonoBehaviour:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    curveTypePosition: 1
+    curveTypePosition: 2
     positionCurve:
       serializedVersion: 2
       m_Curve:
@@ -471,24 +481,26 @@ MonoBehaviour:
         time: 0
         value: 0
         inSlope: 0
-        outSlope: 1
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 1
         outSlope: 0
         tangentMode: 0
         weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
     chained: 1
+    positionSpeed: 0
+    rotationSpeed: 0
   - position: {x: -3.579837, y: 1.9228485, z: -21.275555}
     rotation: {x: 0.0020716635, y: 0.060824096, z: 0.00012531984, w: -0.99814636}
     handleprev: {x: 16.511011, y: 11.600919, z: 1.6943207}
@@ -518,7 +530,7 @@ MonoBehaviour:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    curveTypePosition: 1
+    curveTypePosition: 2
     positionCurve:
       serializedVersion: 2
       m_Curve:
@@ -526,24 +538,26 @@ MonoBehaviour:
         time: 0
         value: 0
         inSlope: 0
-        outSlope: 1
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 1
         outSlope: 0
         tangentMode: 0
         weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
     chained: 1
+    positionSpeed: 0
+    rotationSpeed: 0
   - position: {x: -39.149967, y: 1.889559, z: 18.205463}
     rotation: {x: 0.010156039, y: -0.92068666, z: -0.024013117, w: -0.38943073}
     handleprev: {x: 2.1300545, y: 6.254442, z: -42.34767}
@@ -573,7 +587,7 @@ MonoBehaviour:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    curveTypePosition: 1
+    curveTypePosition: 2
     positionCurve:
       serializedVersion: 2
       m_Curve:
@@ -581,24 +595,26 @@ MonoBehaviour:
         time: 0
         value: 0
         inSlope: 0
-        outSlope: 1
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 1
         outSlope: 0
         tangentMode: 0
         weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
     chained: 0
+    positionSpeed: 0
+    rotationSpeed: 0
   - position: {x: -48.449715, y: -6.2091675, z: -7.4062347}
     rotation: {x: 0.010156039, y: -0.92068666, z: -0.024013117, w: -0.38943073}
     handleprev: {x: -2.307663, y: 4.395809, z: 26.805267}
@@ -628,7 +644,7 @@ MonoBehaviour:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    curveTypePosition: 1
+    curveTypePosition: 2
     positionCurve:
       serializedVersion: 2
       m_Curve:
@@ -636,7 +652,7 @@ MonoBehaviour:
         time: 0
         value: 0
         inSlope: 0
-        outSlope: 1
+        outSlope: 0
         tangentMode: 0
         weightedMode: 0
         inWeight: 0
@@ -644,7 +660,7 @@ MonoBehaviour:
       - serializedVersion: 3
         time: 1
         value: 1
-        inSlope: 1
+        inSlope: 0
         outSlope: 0
         tangentMode: 0
         weightedMode: 0
@@ -654,6 +670,8 @@ MonoBehaviour:
       m_PostInfinity: 2
       m_RotationOrder: 4
     chained: 1
+    positionSpeed: 0
+    rotationSpeed: 0
   - position: {x: -41.365814, y: -1.0771408, z: -29.964819}
     rotation: {x: 0.010156039, y: -0.92068666, z: -0.024013117, w: -0.38943073}
     handleprev: {x: -7.972069, y: -0.21150589, z: 24.411575}
@@ -683,7 +701,7 @@ MonoBehaviour:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    curveTypePosition: 1
+    curveTypePosition: 2
     positionCurve:
       serializedVersion: 2
       m_Curve:
@@ -691,7 +709,7 @@ MonoBehaviour:
         time: 0
         value: 0
         inSlope: 0
-        outSlope: 1
+        outSlope: 0
         tangentMode: 0
         weightedMode: 0
         inWeight: 0
@@ -699,7 +717,7 @@ MonoBehaviour:
       - serializedVersion: 3
         time: 1
         value: 1
-        inSlope: 1
+        inSlope: 0
         outSlope: 0
         tangentMode: 0
         weightedMode: 0
@@ -709,6 +727,8 @@ MonoBehaviour:
       m_PostInfinity: 2
       m_RotationOrder: 4
     chained: 1
+    positionSpeed: 5
+    rotationSpeed: 0
   visual:
     pathColor: {r: 0, g: 1, b: 0, a: 1}
     inactivePathColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
@@ -1894,6 +1914,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CameraPath
       objectReference: {fileID: 0}
+    - target: {fileID: 6122321161340563894, guid: 7850bf0a64948304aa3307ab3e743378, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6122321161340563895, guid: 7850bf0a64948304aa3307ab3e743378, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -2820,6 +2844,8 @@ MonoBehaviour:
       m_PostInfinity: 2
       m_RotationOrder: 4
     chained: 1
+    positionSpeed: 0
+    rotationSpeed: 0
   - position: {x: -8.73597, y: 7.207559, z: -2.117012}
     rotation: {x: 0.15348122, y: -0.12653498, z: 0.8314921, w: -0.5187034}
     handleprev: {x: 4.95131, y: 1.7148967, z: -0.6145365}
@@ -2875,6 +2901,8 @@ MonoBehaviour:
       m_PostInfinity: 2
       m_RotationOrder: 4
     chained: 1
+    positionSpeed: 0
+    rotationSpeed: 0
   - position: {x: -14.614101, y: 5.110596, z: 2.0437937}
     rotation: {x: -0.04360002, y: 0.66569036, z: -0.012564184, w: -0.74484736}
     handleprev: {x: 0, y: 0, z: -1}
@@ -2930,6 +2958,8 @@ MonoBehaviour:
       m_PostInfinity: 2
       m_RotationOrder: 4
     chained: 1
+    positionSpeed: 0
+    rotationSpeed: 0
   visual:
     pathColor: {r: 0, g: 1, b: 0, a: 1}
     inactivePathColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}

@@ -37,7 +37,9 @@ public class CPC_Point
     public CPC_ECurveType curveTypePosition;
     public AnimationCurve positionCurve;
     public bool chained;
-
+    public float positionSpeed;
+    public float rotationSpeed;
+    
     public CPC_Point(Vector3 pos, Quaternion rot)
     {
         position = pos;
@@ -258,19 +260,20 @@ public class CPC_CameraPath : MonoBehaviour
     Vector3 GetBezierPosition(int pointIndex, float time)
     {
         float t = points[pointIndex].positionCurve.Evaluate(time);
+        float speed = 2.0f;
         int nextIndex = GetNextIndex(pointIndex);
         return
             Vector3.Lerp(
                 Vector3.Lerp(
                     Vector3.Lerp(points[pointIndex].position,
-                        points[pointIndex].position + points[pointIndex].handlenext, t),
+                        points[pointIndex].position + points[pointIndex].handlenext, t *speed),
                     Vector3.Lerp(points[pointIndex].position + points[pointIndex].handlenext,
-                        points[nextIndex].position + points[nextIndex].handleprev, t), t),
+                        points[nextIndex].position + points[nextIndex].handleprev, t *speed), t *speed),
                 Vector3.Lerp(
                     Vector3.Lerp(points[pointIndex].position + points[pointIndex].handlenext,
-                        points[nextIndex].position + points[nextIndex].handleprev, t),
+                        points[nextIndex].position + points[nextIndex].handleprev, t *speed),
                     Vector3.Lerp(points[nextIndex].position + points[nextIndex].handleprev,
-                        points[nextIndex].position, t), t), t);
+                        points[nextIndex].position, t *speed), t *speed), t *speed);
     }
 
     private Quaternion GetLerpRotation(int pointIndex, float time)
