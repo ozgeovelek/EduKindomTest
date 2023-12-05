@@ -266,14 +266,14 @@ public class CPC_CameraPath : MonoBehaviour
             Vector3.Lerp(
                 Vector3.Lerp(
                     Vector3.Lerp(points[pointIndex].position,
-                        points[pointIndex].position + points[pointIndex].handlenext, t *speed),
+                        points[pointIndex].position + points[pointIndex].handlenext, t),
                     Vector3.Lerp(points[pointIndex].position + points[pointIndex].handlenext,
-                        points[nextIndex].position + points[nextIndex].handleprev, t *speed), t *speed),
+                        points[nextIndex].position + points[nextIndex].handleprev, t ), t ),
                 Vector3.Lerp(
                     Vector3.Lerp(points[pointIndex].position + points[pointIndex].handlenext,
-                        points[nextIndex].position + points[nextIndex].handleprev, t *speed),
+                        points[nextIndex].position + points[nextIndex].handleprev, t ),
                     Vector3.Lerp(points[nextIndex].position + points[nextIndex].handleprev,
-                        points[nextIndex].position, t *speed), t *speed), t *speed);
+                        points[nextIndex].position, t ), t ), t );
     }
 
     private Quaternion GetLerpRotation(int pointIndex, float time)
